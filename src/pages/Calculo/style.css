@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background-color: #D3D3D3;
+}
+
+.areaCalculo{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.componentCalculo{
+    background: transparent;
+    padding: 15px;
+}
+
+.componentCalculo div{
+    margin-bottom: 20px; 
+    text-align: center;  
+}
+
+.componentCalculo div .tituloCalculodeTinta{
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.componentCalculo div .formEntrada{
+    display: flex;
+    flex-direction: column;
+}
+
+.componentCalculo div .formEntrada .formEntradaCampos{
+    display: flex;
+    flex-direction: row;
+}
+
+.componentCalculo div input[type="text"],input[type="number"]{
+    padding: 10px;
+    width: 95%;
+}
+
+.componentCalculo div input[type="submit"]{
+    padding: 5px;
+    width: 95%;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+
+.areaResultFinal{
+    background: #999;
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+}
+
+
+
+
